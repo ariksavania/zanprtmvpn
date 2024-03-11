@@ -5,8 +5,8 @@ apt install jq curl -y
 DOMAIN=zanprtmxvpn.tech
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.zanprtmxvpn.tech
-CF_ID=kabelo8683@vaband.com
-CF_KEY=3b46e3d180e3e7e40262cf4808e57d75595be
+CF_ID=ariksafaniadwi@gmail.com
+CF_KEY=f11a5a1a102f2234c71801060e8fab7df8512
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
