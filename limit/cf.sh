@@ -6,7 +6,7 @@ DOMAIN=zanprtmxvpn.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.zanprtmxvpn.me
 CF_ID=kabelo8683@vaband.com
-CF_KEY=cf 3b46e3d180e3e7e40262cf4808e57d75595be
+CF_KEY=3b46e3d180e3e7e40262cf4808e57d75595be
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
